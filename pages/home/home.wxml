@@ -1,0 +1,19 @@
+<view>
+<text class='title'>Hello, World!</text>
+<view>Hello,Super Star</view>
+<!-- 列表循环展示 -->
+<view wx:for="{{students}}">{{item.name}} -- {{item.age}}</view>
+<!-- 事件监听-->
+<view>当前计数：{{counter}}</view>
+<button size='mini' bindtap='handlePlusBtn'>+</button>
+<button size='mini' bindtap='handleMinusBtn'>-</button>
+<button size="mini" 
+        open-type="getUserInfo"
+        bindgetuserinfo="handleGetUserInfo">
+        获取授权
+</button>
+<label bindtap="handleViewClick">用户昵称：</label> <open-data type="userNickName"></open-data>
+<label>用户头像：</label> <open-data type="userAvatarUrl"></open-data>
+<label>所在省市：</label> <open-data type="userProvince"></open-data>
+<view wx:for="{{list}}">{{item.title}}</view>
+</view>

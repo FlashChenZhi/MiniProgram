@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/about/about",
+    "pages/profile/profile",
+    "pages/category/category"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "blue",
+    "enablePullDownRefresh": false,
+    "navigationBarBackgroundColor": "#abc",
+    "navigationBarTitleText": "我的首个小程序",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "assets/tabbar/twriter1.jpg",
+        "selectedIconPath": "assets/tabbar/twriter2.jpg"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "assets/tabbar/huawei1.jpg",
+        "selectedIconPath": "assets/tabbar/huawei2.jpg"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于",
+        "iconPath": "assets/tabbar/wchat1.png",
+        "selectedIconPath": "assets/tabbar/wchat2.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

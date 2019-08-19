@@ -1,0 +1,5 @@
+<!--pages/category/category.wxml-->
+<view>
+<text>{{message}}</text>
+</view>
+
