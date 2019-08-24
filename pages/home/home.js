@@ -36,7 +36,7 @@ Page({
       wx.request({
         url: 'http://123.207.32.32:8000/api/v1/recommend',
         success:(res)=>{
-            console.log(res)
+            console.log("Data",res)
             const data = res.data.data.list;
             this.setData({
               list:data
